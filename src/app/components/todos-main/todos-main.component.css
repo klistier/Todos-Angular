@@ -1,0 +1,22 @@
+#todos {
+  width: 30vw;
+}
+
+.container {
+  text-align: center;
+}
+
+#add-btn {
+  border: 1px solid rgba(18, 21, 24, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+  color: #000000d8;
+  padding: 4px 16px;
+  margin: 0 10px;
+}
+
+#input-field {
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+}

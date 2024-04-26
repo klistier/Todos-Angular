@@ -1,0 +1,25 @@
+.todo{
+    display: flex;
+    flex: 1;
+    margin: 10px 5px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.remove-btn{
+    align-self: center;
+    margin: 0px 10px;
+    background-color: #a81e25ce;
+    border: 1px solid rgba(18, 21, 24, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 3px 13px;
+}
+
+p{
+    text-align: left;
+    flex: 1;
+}
