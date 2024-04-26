@@ -1,6 +1,5 @@
 .todo{
     display: flex;
-    flex: 1;
     margin: 10px 5px;
     justify-content: space-evenly;
     width: 100%;

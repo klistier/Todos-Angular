@@ -16,12 +16,17 @@ export class TodosMainComponent {
   todoList: Todo[] = [];
 
   addTodo() {
-    this.todoList.push(
-      new Todo(this.todoInput, Math.floor(Math.random() * 10000))
-    );
+    if (this.todoInput.trim() === '') {
+      alert('Please write a ToDo!');
+    } else {
+      this.todoList.push(
+        new Todo(this.todoInput, Math.floor(Math.random() * 10000))
+      );
+      this.todoInput = '';
+    }
   }
 
-  deleteTodo(id: number){
+  deleteTodo(id: number) {
     this.todoList = this.todoList.filter((todo) => todo.id !== id);
   }
 }
